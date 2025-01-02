@@ -242,5 +242,5 @@ void mainMenu() {
 // Main function
 int main() {
     mainMenu();
-    return 0;
+    // OK DONE
 }

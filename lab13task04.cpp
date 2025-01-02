@@ -5,7 +5,7 @@
 #include <iomanip>
 
 using namespace std;
-hkhlihlkhklkjkj
+
 struct Employee {
     int id;
     string name;
@@ -15,6 +15,7 @@ struct Employee {
     Employee(int empId, const string& empName, const string& empDesignation, int hours = 0)
         : id(empId), name(empName), designation(empDesignation), totalHours(hours) {}
 };
+hgfghfhgfhgf
 
 void addEmployee(vector<Employee>& employees);
 void updateWorkingHours(vector<Employee>& employees);
