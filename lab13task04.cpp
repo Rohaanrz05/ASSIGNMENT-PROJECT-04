@@ -5,7 +5,6 @@
 #include <iomanip>
 
 using namespace std;
-my name is kkkkkkkkkkkkkkkkkkk
 struct Employee {
     int id;
     string name;
