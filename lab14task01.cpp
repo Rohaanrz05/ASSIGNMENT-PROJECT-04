@@ -7,8 +7,7 @@
 using namespace std;
 
 // Structure to store book details
-//edited by hamza
-//rohaan zahid
+
 
 struct Book {
     string book_id;
