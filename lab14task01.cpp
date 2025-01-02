@@ -195,5 +195,4 @@ void updateQuantity(vector<Book>& books, const string& book_id, int new_quantity
     }
     cout << "Book with ID '" << book_id << "' not found." << endl;
 }
-return 0;
 
