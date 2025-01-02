@@ -3,6 +3,7 @@
 #include <fstream>
 #include <string>
 #include <sstream>
+#include <limits>
 
 using namespace std;
 
@@ -41,7 +42,13 @@ int main() {
         cout << "Enter your choice: ";
 
         int choice;
-        cin >> choice;
+        if (cin.fail()) {
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cout << "Invalid input. Please enter a number." << endl;
+            continue;
+        }
+        cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear the newline character from the input buffer
         cin.ignore(); // Clear the newline character from the input buffer
 
         if (choice == 1) 
@@ -196,4 +203,4 @@ void updateQuantity(vector<Book>& books, const string& book_id, int new_quantity
     }
     cout << "Book with ID '" << book_id << "' not found." << endl;
 }
-
+// ok checked
