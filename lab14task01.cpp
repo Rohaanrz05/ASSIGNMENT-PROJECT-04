@@ -8,7 +8,7 @@
 using namespace std;
 
 // Structure to store book details
-
+cout<<"My name is";
 
 struct Book {
     string book_id;
