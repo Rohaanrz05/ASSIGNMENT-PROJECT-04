@@ -8,7 +8,7 @@
 using namespace std;
 
 // Structure to store product details
-//rohaan zahid
+
 struct Product {
     int id;
     string name;
