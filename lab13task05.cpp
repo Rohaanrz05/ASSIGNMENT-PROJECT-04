@@ -8,7 +8,7 @@
 using namespace std;
 
 // Structure to store product details
-//rohaan zahid
+sir wajid
 struct Product {
     int id;
     string name;
@@ -97,7 +97,7 @@ void searchProducts() {
     }
 }
 
-// Function to add a product to the cart
+// Function to add a product to the cart ....
 void addToCart(vector<Product*>& cart) {
     int id, quantity;
     cout << "Enter Product ID: ";
@@ -203,6 +203,7 @@ int main() {
                 return 0;
             default:
                 cout << "Invalid choice.\n";
+                \\ sir wajid the grea minister of pakistan
         }
     }
 }
