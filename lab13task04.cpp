@@ -147,7 +147,7 @@ void loadFromFile(vector<Employee> &employees, const string &filename)
 
     while (inFile >> id)
     {
-        rtyyyyyyynhikfuy
+        rtyyytttttt
 
         inFile.ignore();
         getline(inFile, name);
