@@ -8,7 +8,7 @@
 using namespace std;
 
 // Structure to store product details
-
+sir wajid
 struct Product {
     int id;
     string name;
