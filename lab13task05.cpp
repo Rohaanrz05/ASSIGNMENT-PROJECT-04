@@ -203,7 +203,7 @@ int main() {
                 return 0;
             default:
                 cout << "Invalid choice.\n";
-                \\ sir wajid the great the prime minister of pakistan
+                \\ sir wajid the grea minister of pakistan
         }
     }
 }
